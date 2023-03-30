@@ -1,0 +1,17 @@
+C:\Users\LENOVO\source\repos\kalkulatorDekstop\bin\Debug\kalkulatorDekstop.exe.config
+C:\Users\LENOVO\source\repos\kalkulatorDekstop\bin\Debug\kalkulatorDekstop.exe
+C:\Users\LENOVO\source\repos\kalkulatorDekstop\bin\Debug\kalkulatorDekstop.pdb
+C:\Users\LENOVO\source\repos\kalkulatorDekstop\obj\Debug\kalkulatorDekstop.Form1.resources
+C:\Users\LENOVO\source\repos\kalkulatorDekstop\obj\Debug\kalkulatorDekstop.menu.resources
+C:\Users\LENOVO\source\repos\kalkulatorDekstop\obj\Debug\kalkulatorDekstop.Properties.Resources.resources
+C:\Users\LENOVO\source\repos\kalkulatorDekstop\obj\Debug\kalkulatorDekstop.csproj.GenerateResource.cache
+C:\Users\LENOVO\source\repos\kalkulatorDekstop\obj\Debug\kalkulatorDekstop.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\kalkulatorDekstop\obj\Debug\kalkulatorDekstop.exe
+C:\Users\LENOVO\source\repos\kalkulatorDekstop\obj\Debug\kalkulatorDekstop.pdb
+C:\Users\LENOVO\source\repos\kalkulatorDekstop\obj\Debug\kalkulatorDekstop.symbol.resources
+C:\Users\LENOVO\source\repos\kalkulatorDekstop\obj\Debug\kalkulatorDekstop.symbolstring.resources
+C:\Users\LENOVO\source\repos\kalkulatorDekstop\obj\Debug\kalkulatorDekstop.fullstr.resources
+C:\Users\LENOVO\source\repos\kalkulatorDekstop\obj\Debug\kalkulatorDekstop.ch2.resources
+C:\Users\LENOVO\source\repos\kalkulatorDekstop\obj\Debug\kalkulatorDekstop.ch1.resources
+C:\Users\LENOVO\source\repos\kalkulatorDekstop\obj\Debug\kalkulatorDekstop.about.resources
+C:\Users\LENOVO\source\repos\kalkulatorDekstop\obj\Debug\kalkulatorDekstop.csproj.AssemblyReference.cache
