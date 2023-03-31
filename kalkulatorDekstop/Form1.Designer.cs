@@ -32,6 +32,8 @@ namespace kalkulatorDekstop
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.button7 = new System.Windows.Forms.Button();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.button15 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
@@ -41,36 +43,24 @@ namespace kalkulatorDekstop
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.button9 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.button15 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            this.panel8.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panel8.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -100,6 +90,30 @@ namespace kalkulatorDekstop
             this.button7.Text = "Exit";
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.button15);
+            this.panel8.Controls.Add(this.button5);
+            this.panel8.Location = new System.Drawing.Point(0, 118);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(168, 81);
+            this.panel8.TabIndex = 0;
+            // 
+            // button15
+            // 
+            this.button15.BackColor = System.Drawing.Color.Gray;
+            this.button15.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.button15.FlatAppearance.BorderSize = 0;
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button15.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button15.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button15.Location = new System.Drawing.Point(0, 41);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(168, 40);
+            this.button15.TabIndex = 112;
+            this.button15.Text = "About";
+            this.button15.UseVisualStyleBackColor = false;
             // 
             // button5
             // 
@@ -210,28 +224,6 @@ namespace kalkulatorDekstop
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.White;
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.label5);
-            this.panel4.Controls.Add(this.label6);
-            this.panel4.Controls.Add(this.button3);
-            this.panel4.Location = new System.Drawing.Point(663, 107);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(200, 125);
-            this.panel4.TabIndex = 3;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Lucida Sans", 7.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(3, 44);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(161, 28);
-            this.label5.TabIndex = 101;
-            this.label5.Text = "Input ( angka symbol angka ) ->\r\nSamadengan";
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -241,20 +233,7 @@ namespace kalkulatorDekstop
             this.label6.Size = new System.Drawing.Size(185, 34);
             this.label6.TabIndex = 100;
             this.label6.Text = "Kalkulator Model String \r\ndan Symbol\r\n";
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.DimGray;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(62, 85);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "Coba";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // panel5
             // 
@@ -302,63 +281,18 @@ namespace kalkulatorDekstop
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.White;
-            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.label9);
-            this.panel6.Controls.Add(this.label10);
-            this.panel6.Controls.Add(this.button8);
-            this.panel6.Location = new System.Drawing.Point(438, 260);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(200, 125);
-            this.panel6.TabIndex = 103;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Lucida Sans", 7.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(3, 44);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(161, 28);
-            this.label9.TabIndex = 101;
-            this.label9.Text = "Input ( angka symbol angka ) ->\r\nSamadengan";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(3, 10);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(165, 34);
-            this.label10.TabIndex = 100;
-            this.label10.Text = "Kalkulator Challenge \r\nVersi 1";
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.DimGray;
-            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button8.Location = new System.Drawing.Point(62, 85);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 0;
-            this.button8.Text = "Coba";
-            this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.White;
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel7.Controls.Add(this.label11);
-            this.panel7.Controls.Add(this.label12);
+            this.panel7.Controls.Add(this.label6);
             this.panel7.Controls.Add(this.button9);
-            this.panel7.Location = new System.Drawing.Point(663, 260);
+            this.panel7.Location = new System.Drawing.Point(438, 260);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(200, 125);
             this.panel7.TabIndex = 103;
+            this.panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.panel7_Paint);
             // 
             // label11
             // 
@@ -369,16 +303,6 @@ namespace kalkulatorDekstop
             this.label11.Size = new System.Drawing.Size(161, 28);
             this.label11.TabIndex = 101;
             this.label11.Text = "Input ( angka symbol angka ) ->\r\nSamadengan";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(3, 10);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(160, 34);
-            this.label12.TabIndex = 100;
-            this.label12.Text = "Kalkulator Challenge\r\nVersi 2";
             // 
             // button9
             // 
@@ -397,7 +321,7 @@ namespace kalkulatorDekstop
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(602, 24);
+            this.pictureBox1.Location = new System.Drawing.Point(385, 28);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(40, 42);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -407,48 +331,22 @@ namespace kalkulatorDekstop
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(662, 24);
+            this.pictureBox2.Location = new System.Drawing.Point(445, 28);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(201, 42);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 105;
             this.pictureBox2.TabStop = false;
             // 
-            // panel8
-            // 
-            this.panel8.Controls.Add(this.button15);
-            this.panel8.Controls.Add(this.button5);
-            this.panel8.Location = new System.Drawing.Point(0, 118);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(168, 81);
-            this.panel8.TabIndex = 0;
-            // 
-            // button15
-            // 
-            this.button15.BackColor = System.Drawing.Color.Gray;
-            this.button15.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.button15.FlatAppearance.BorderSize = 0;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button15.Location = new System.Drawing.Point(0, 41);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(168, 40);
-            this.button15.TabIndex = 112;
-            this.button15.Text = "About";
-            this.button15.UseVisualStyleBackColor = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(895, 430);
+            this.ClientSize = new System.Drawing.Size(662, 430);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel7);
-            this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel5);
-            this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -457,21 +355,17 @@ namespace kalkulatorDekstop
             this.Name = "Form1";
             this.Text = "Shortcut";
             this.panel1.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panel8.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -482,13 +376,10 @@ namespace kalkulatorDekstop
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel5;
@@ -497,13 +388,8 @@ namespace kalkulatorDekstop
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
